@@ -1,0 +1,51 @@
+body{
+    background-image: url(Imagenes/fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    margin: 20px;
+
+    font-family: 'Courier New', Courier, monospace
+}
+
+h1{
+    text-align: center;
+}
+
+form{
+    background: rgba(255, 255, 255, 0.255);
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,1);
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+}
+
+input, textarea{
+
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid grey;
+}
+
+label{
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+button{
+    background-color: rgba(0, 0, 0, 0.546);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 15px;
+    cursor:pointer;
+}
+
+button:hover{
+    background-color: rgba(101, 101, 101, 0.107);
+}
