@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Eventos de la caja y boton</h1>
+    <hr>
+    <input type="text" id="caja1" placeholder="Escribir algo...">
+    <input type="text" id="caja2" placeholder="Escribir algo...">
+    <button onclick="mostrar()">Mostrar mensaje</button>
+
+    <script>
+        function mostrar(){
+            var texto = document.getElementById('caja1').value;
+            //alert("Hola "+ texto +" desde JavaScript");
+            document.getElementById('caja2').value=texto;
+        }            //funcion mostrar
+
+    </script>
+</body>
+</html>
